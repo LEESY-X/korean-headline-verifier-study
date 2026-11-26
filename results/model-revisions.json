@@ -1,0 +1,16 @@
+{
+  "same": {
+    "checkpoint_revision": "ba21c20ea1b31ded1ec3e2fb432335077dc4be98",
+    "torch": "2.7.1+cu128",
+    "transformers": "4.57.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "other": {
+    "checkpoint_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "torch": "2.7.1+cu128",
+    "transformers": "4.57.1",
+    "cuda": "12.8",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  }
+}

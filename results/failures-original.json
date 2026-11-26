@@ -1,0 +1,116 @@
+{
+  "reference": {
+    "attribution": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "certainty": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "quantity": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "scope": {
+      "supported": 30,
+      "misleading": 30
+    }
+  },
+  "exact_decisive_counterevidence": {
+    "quantity": {
+      "specialist_calls": 104,
+      "wrongly_said_supported": 3
+    },
+    "attribution": {
+      "specialist_calls": 64
+    },
+    "scope": {
+      "specialist_calls": 67,
+      "wrongly_said_supported": 26
+    },
+    "certainty": {
+      "specialist_calls": 10
+    }
+  },
+  "all_wrong_unanimous": {
+    "scope": {
+      "headlines": 2,
+      "with_at_least_one_exact_quote": 2
+    }
+  },
+  "single": {
+    "certainty": {
+      "reviewed": 33
+    },
+    "attribution": {
+      "reviewed": 10
+    },
+    "quantity": {
+      "reviewed": 10,
+      "false_pass": 5
+    },
+    "scope": {
+      "reviewed": 7,
+      "false_pass": 16
+    }
+  },
+  "vote": {
+    "certainty": {
+      "reviewed": 30
+    },
+    "scope": {
+      "reviewed": 10,
+      "false_pass": 2
+    },
+    "quantity": {
+      "reviewed": 10
+    },
+    "attribution": {
+      "reviewed": 10
+    }
+  },
+  "citation": {
+    "certainty": {
+      "reviewed": 30
+    },
+    "scope": {
+      "reviewed": 8,
+      "false_pass": 2
+    },
+    "quantity": {
+      "reviewed": 8
+    },
+    "attribution": {
+      "reviewed": 14
+    }
+  },
+  "same_model": {
+    "certainty": {
+      "reviewed": 30
+    },
+    "scope": {
+      "reviewed": 10
+    },
+    "attribution": {
+      "reviewed": 13
+    },
+    "quantity": {
+      "reviewed": 7
+    }
+  },
+  "other_model": {
+    "certainty": {
+      "reviewed": 30
+    },
+    "scope": {
+      "reviewed": 15
+    },
+    "quantity": {
+      "reviewed": 6
+    },
+    "attribution": {
+      "reviewed": 9
+    }
+  }
+}

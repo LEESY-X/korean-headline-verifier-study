@@ -1,0 +1,126 @@
+{
+  "reference": {
+    "attribution": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "certainty": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "quantity": {
+      "supported": 30,
+      "misleading": 30
+    },
+    "scope": {
+      "supported": 30,
+      "misleading": 30
+    }
+  },
+  "exact_decisive_counterevidence": {
+    "attribution": {
+      "specialist_calls": 52,
+      "wrongly_said_supported": 5
+    },
+    "quantity": {
+      "specialist_calls": 114,
+      "wrongly_said_supported": 12
+    },
+    "scope": {
+      "specialist_calls": 101
+    },
+    "certainty": {
+      "specialist_calls": 6
+    }
+  },
+  "all_wrong_unanimous": {
+    "attribution": {
+      "headlines": 4,
+      "with_at_least_one_exact_quote": 4
+    },
+    "quantity": {
+      "headlines": 1,
+      "with_at_least_one_exact_quote": 1
+    }
+  },
+  "single": {
+    "certainty": {
+      "reviewed": 32
+    },
+    "quantity": {
+      "reviewed": 12,
+      "false_pass": 8
+    },
+    "attribution": {
+      "reviewed": 10,
+      "false_pass": 2,
+      "false_flag": 1
+    },
+    "scope": {
+      "reviewed": 6
+    }
+  },
+  "vote": {
+    "certainty": {
+      "reviewed": 31
+    },
+    "quantity": {
+      "reviewed": 10,
+      "false_pass": 1
+    },
+    "attribution": {
+      "reviewed": 17,
+      "false_flag": 3
+    },
+    "scope": {
+      "reviewed": 2
+    }
+  },
+  "citation": {
+    "certainty": {
+      "reviewed": 31
+    },
+    "quantity": {
+      "reviewed": 7,
+      "false_pass": 1
+    },
+    "attribution": {
+      "reviewed": 16,
+      "false_flag": 4
+    },
+    "scope": {
+      "reviewed": 6
+    }
+  },
+  "same_model": {
+    "certainty": {
+      "reviewed": 30
+    },
+    "quantity": {
+      "reviewed": 7,
+      "false_pass": 1
+    },
+    "attribution": {
+      "reviewed": 20
+    },
+    "scope": {
+      "reviewed": 3
+    }
+  },
+  "other_model": {
+    "certainty": {
+      "reviewed": 32
+    },
+    "quantity": {
+      "reviewed": 8,
+      "false_pass": 1
+    },
+    "attribution": {
+      "reviewed": 14,
+      "false_flag": 3
+    },
+    "scope": {
+      "reviewed": 6
+    }
+  }
+}

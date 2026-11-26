@@ -1,0 +1,77 @@
+{
+  "order": "original",
+  "families": 120,
+  "role_calls": 1200,
+  "evidence_audit": {
+    "evidence_id_string_number": 836,
+    "model_parse_errors": 0,
+    "literal_quote_matches": 1060,
+    "annotated_span_matches": 924,
+    "evidence_id_abstention": 140,
+    "evidence_id_integer": 224
+  },
+  "policies": {
+    "single": {
+      "titles": 240,
+      "reviewed": 60,
+      "misleading": 120,
+      "false_pass": 21,
+      "false_pass_rate": 0.175,
+      "false_flag": 0,
+      "unresolved_over_budget": 0,
+      "unanimous_false_pass": 11
+    },
+    "vote": {
+      "titles": 240,
+      "reviewed": 60,
+      "misleading": 120,
+      "false_pass": 2,
+      "false_pass_rate": 0.016666666666666666,
+      "false_flag": 0,
+      "unresolved_over_budget": 0,
+      "unanimous_false_pass": 2
+    },
+    "citation": {
+      "titles": 240,
+      "reviewed": 60,
+      "misleading": 120,
+      "false_pass": 2,
+      "false_pass_rate": 0.016666666666666666,
+      "false_flag": 0,
+      "unresolved_over_budget": 0,
+      "unanimous_false_pass": 2
+    },
+    "same_model": {
+      "titles": 240,
+      "reviewed": 60,
+      "misleading": 120,
+      "false_pass": 0,
+      "false_pass_rate": 0.0,
+      "false_flag": 0,
+      "unresolved_over_budget": 0,
+      "unanimous_false_pass": 0
+    },
+    "other_model": {
+      "titles": 240,
+      "reviewed": 60,
+      "misleading": 120,
+      "false_pass": 0,
+      "false_pass_rate": 0.0,
+      "false_flag": 0,
+      "unresolved_over_budget": 0,
+      "unanimous_false_pass": 0
+    }
+  },
+  "primary": {
+    "feasible": true,
+    "difference_pp": 0.0,
+    "bootstrap": {
+      "runs": 10000,
+      "feasible_runs": 10000,
+      "ci95_pp_when_feasible": [
+        0.0,
+        0.8333333333333334
+      ]
+    }
+  }
+}
