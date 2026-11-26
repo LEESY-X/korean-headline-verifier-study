@@ -10,10 +10,10 @@ Use Python 3.12 and a CUDA GPU with enough memory for each model. The measured e
 
 ```bash
 python -B -m unittest -v test_evaluate
-python build_fictional.py --per-risk 30 --out fictional-120.jsonl
 mkdir -p runs/fictional
+python build_fictional.py --per-risk 30 --out runs/fictional-cases.jsonl
 bash run_evaluation.sh runs/fictional "$(command -v python)" \
-  "$AX_CHECKPOINT" "$PHI_CHECKPOINT" fictional-120.jsonl
+  "$AX_CHECKPOINT" "$PHI_CHECKPOINT" runs/fictional-cases.jsonl
 ```
 
 To measure the separate verifier on the same cases, pass the stored original baseline outputs to the benchmark. Batch latency is the time to process a batch. Model loading and upstream calls are excluded from runtime throughput.
